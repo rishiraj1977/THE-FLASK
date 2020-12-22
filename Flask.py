@@ -19,7 +19,7 @@ List = [
 
 @app.route("/")
 def hello_world():
-    return "Hello World!"
+    return "WELCOME TO NEW WORLD!!"
 
 @app.route("/add-data", methods=["POST"])
 def add_task():
